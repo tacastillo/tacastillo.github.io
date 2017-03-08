@@ -1,0 +1,25 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "timothy castillo's react d3 centric homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tacastillo/homepage.git"
+  },
+  "keywords": [
+    "react",
+    "d3",
+    "portfolio",
+    "tacastillo"
+  ],
+  "author": "Timothy Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tacastillo/homepage/issues"
+  },
+  "homepage": "https://github.com/tacastillo/homepage#readme"
+}
