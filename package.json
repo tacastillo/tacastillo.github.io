@@ -1,25 +1,30 @@
 {
   "name": "homepage",
-  "version": "1.0.0",
-  "description": "timothy castillo's react d3 centric homepage",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://tacastillo.github.io/home",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "d3": "^4.7.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "semantic-ui": "^2.2.9"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "node-sass": "^4.5.0",
+    "npm-run-all": "^4.0.2",
+    "react-scripts": "0.9.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tacastillo/homepage.git"
-  },
-  "keywords": [
-    "react",
-    "d3",
-    "portfolio",
-    "tacastillo"
-  ],
-  "author": "Timothy Castillo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tacastillo/homepage/issues"
-  },
-  "homepage": "https://github.com/tacastillo/homepage#readme"
+    "build-css": "node-sass src/stylesheets/sass -o src/stylesheets",
+    "watch-css": "npm run build-css && node-sass src/stylesheets/sass -o src/stylesheets --watch --recursive",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "start-js": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
 }

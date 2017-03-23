@@ -1,0 +1,19 @@
+.about-me {
+  top: 25vh;
+  list-style: none;
+  padding-left: 1rem; }
+  .about-me li {
+    font-size: 1.4rem;
+    margin-bottom: 2.5vh;
+    padding: 1rem; }
+    .about-me li.about-selected {
+      background-color: #000000;
+      color: #F9F9F9; }
+
+span.about-date {
+  font-weight: 600; }
+  span.about-date:after {
+    content: ' - '; }
+
+.about-me-container {
+  height: 76%; }
