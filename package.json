@@ -2,7 +2,7 @@
   "name": "homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tacastillo.github.io/homepage/",
+  "homepage": "https://tacastillo.github.io/",
   "dependencies": {
     "classnames": "^2.2.5",
     "d3": "^4.7.3",
