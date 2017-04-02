@@ -12,8 +12,8 @@ class Projects extends Component {
     constructor(props) {
     	super(props); 
 
-    	this.width = 500;
-    	this.height = 900;
+    	this.width = 650;
+    	this.height = 850;
     	this.state = {
 			focused: {
 	    		"name": "",

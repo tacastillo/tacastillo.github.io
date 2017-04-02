@@ -37,9 +37,9 @@ export const SUBTOTAL_DATA = {
 	],
 	"Misc": [
 		{xValue: "git", yValue: 0.9},
-		{xValue: "Management Tools", yValue: 0.7},
+		{xValue: "Management", yValue: 0.7},
 		{xValue: "npm", yValue: 0.85},
 		{xValue: "Communication", yValue: 0.95},
-		{xValue: "Webpack/Gulp/Bash", yValue: 0.95},
+		{xValue: "Webpack/Bash", yValue: 0.95},
 	]
 }

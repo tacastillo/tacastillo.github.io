@@ -9,7 +9,8 @@
   fill: #333333; }
 
 text {
-  font-family: bodyFont, sansSerif; }
+  font-family: bodyFont, sansSerif;
+  font-size: 13px; }
 
 .y.axis path {
   visibility: hidden; }

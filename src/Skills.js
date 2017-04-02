@@ -15,9 +15,9 @@ class Skills extends Component {
     constructor(props) {
     	super(props);
 
-			let margin = {top: 100, right: 0, bottom: 50, left: 0},
-				width = 550,
-				height = 500;
+			let margin = {top: 100, right: 0, bottom: 50, left: 0}, //for radarChart
+				width = 450,
+				height = 450;
 
 			let summaryData = [SUMMARY_DATA];
 
@@ -76,7 +76,7 @@ class Skills extends Component {
 			            type={"bar"}
 			            width={this.state.width}
 			            height={this.state.height}
-			            margin={{top:25, left:100, bottom:0, right:25}}
+			            margin={{top:25, left:120, bottom:0, right:25}}
 			            showTooltips={true}
 			            transitionDuration={750}
 			            data={this.state.currentScope}
