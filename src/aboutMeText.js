@@ -12,7 +12,7 @@ export const ABOUT_ME = [
 	{
 		title: "Starts Software Internship at Apttus",
 		date: "May 2016",
-		description: "Beginning in the Summer after my Junior year and working as a contractor during my Senior year, I began my internship at Apttus. Apttus is a Fortune Unicorn mid-sized start up that invented and pioneered the CPQ (Configure-Price-Quote) field. At Apttus, I was the primary UI developer for a large-scale revamp of one of the cornerstones  of our signature product. My experience resulted in exposure with Angular to the point of proficiency. My project was the vanguard for design changes and experimental features."
+		description: "Beginning in the Summer after my Junior year and working as a contractor during my Senior year, I interned at Apttus. Apttus is a Fortune Unicorn company that pioneered the CPQ (Configure-Price-Quote) field. At Apttus, I was the primary UI developer for a large revamp of a cornerstone of our signature product. My experience resulted in exposure with Angular to the point of proficiency, and involved being the vanguard for design changes and experimental features."
 	},
 	{
 		title: "Graduates From the University of San Francisco",
@@ -21,12 +21,12 @@ export const ABOUT_ME = [
 	},
 	{
 		title: "Leaves Apttus",
-		date: "March 2016",
+		date: "March 2017",
 		description: "After graduating in December, I was allowed to return full-time to Apttus until my intended start date at IBM, which I had already received an offer for. I chose to leave Apttus a couple months before my start date as I wanted to focus on myself, my health, my relationships and to spend plenty of quality time working on my side projects."
 	},
 	{
-		title: "Starts as UI Developer at IBM Watson Costumer Engagement",
-		date: "July 2016",
+		title: "Starts as UI Developer at IBM Watson Customer Engagement",
+		date: "July 2017",
 		description: "EEEEEE!!! I'M SO EXCITED!"
 	},
 

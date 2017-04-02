@@ -46,3 +46,8 @@ p {
 
 .subheader {
   padding-left: 2rem; }
+
+.content-container {
+  display: flex; }
+  .content-container .svg-container {
+    margin: auto; }

@@ -56,10 +56,12 @@ class AboutMe extends Component {
 
       return (
       	<div onMouseLeave={this._emptyDetails} className="full-page align-page-right white-page">
-      		<h2>Timeline</h2>
+            <div>
+          		<h2>Timeline</h2>
+                <h4 className="subheader">Hover Over for Details</h4>
+            </div>
       		<div className="ui grid stackable about-me-container">
 	      		<div className="nine wide column">
-	        		<h4 className="subheader">Hover Over for Details</h4>
 	        		<ul className="about-me">
 	        			{listItems}
 	        		</ul>

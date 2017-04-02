@@ -2,6 +2,8 @@ import React, { Component, PropTypes } from 'react';
 
 import './stylesheets/Skills.css'
 import RadarChart from './RadarChart.js';
+import Chart from './Chart.js';
+import { SUMMARY_DATA, SUBTOTAL_DATA } from './skillsData.js';
 
 let d3 = require('d3');
 
@@ -13,42 +15,51 @@ class Skills extends Component {
     constructor(props) {
     	super(props);
 
-			let margin = {top: 75, right: 50, bottom: 100, left: 50},
-				width = window.innerWidth/2 - margin.right - margin.left,
-				height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
-					
+			let margin = {top: 100, right: 0, bottom: 50, left: 0},
+				width = 550,
+				height = 500;
 
-			let data = [
-					  [//iPhone
-						{axis:"Front-End",value:0.8},
-						{axis:"Back-End",value:0.6},
-						{axis:"Theory",value:0.4},
-						{axis:"Analytics",value:0.5},
-						{axis:"Miscellaneous",value:0.6},
-					  ]
-					];
+			let summaryData = [SUMMARY_DATA];
 
 			let color = d3.scaleOrdinal(d3.schemeCategory10);
 				
 			let radarChartOptions = {
-			  w: width,
-			  h: height,
+			  w: width - margin.left - margin.right,
+			  h: height - margin.top - margin.bottom,
 			  margin: margin,
 			  maxValue: 1,
 			  levels: 5,
 			  roundStrokes: false,
-			  color: color
+			  color: color,
+			  mouseOverFunction: this._mouseOver,
+			  mouseOutFunction: this._mouseOut
 			};
 			
 			this.state = {
 				options: radarChartOptions,
-				data: data
+				totalData: summaryData,
+				currentScope: summaryData[0],
+				subtotalData: SUBTOTAL_DATA,
+				width: width,
+				height: height
 			}
+    }
+
+    _mouseOver = (d, i) => {
+    	this.setState({
+    		currentScope: this.state.subtotalData[d]
+    	});
+    }
+
+    _mouseOut = (d, i) => {
+    	this.setState({
+    		currentScope: this.state.totalData[0]
+    	});
     }
 
     componentDidMount() {
     	let chart = new RadarChart();
-    	chart.init(".radarChart", this.state.data, this.state.options);
+    	chart.init(".radarChart", this.state.totalData, this.state.options);
     	// this._buildChart();
     }
 
@@ -56,16 +67,25 @@ class Skills extends Component {
       return (
       	<div className="full-page align-page-right white-page skills-wrapper">
       		<h2>Skills</h2>
-      		<div className="ui grid stackable" ref="container">
-      			<div className="radarChart"></div>
+			<h4 className="subheader">Hover Over the Labels of the Radar Chart For More Detail</h4>
+      		<div className="content-container">
+	      		<div className="svg-container">
+		      		<div onMouseLeave={this._mouseOut} className="ui grid stackable">
+		      			<div className="radarChart"></div>
+		            <Chart
+			            type={"bar"}
+			            width={this.state.width}
+			            height={this.state.height}
+			            margin={{top:25, left:100, bottom:0, right:25}}
+			            showTooltips={true}
+			            transitionDuration={750}
+			            data={this.state.currentScope}
+				        />
+		      		</div>
+	      		</div>
       		</div>
       	</div>
       );
-    }
-
-    _buildChart() {
-    	var container = this.refs.container;
-
     }
 }
 

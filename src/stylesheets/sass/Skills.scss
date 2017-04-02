@@ -10,3 +10,14 @@
 .tooltip {
 	fill: #333333;
 }
+
+text {
+	font-family: bodyFont, sansSerif;
+}
+
+.y.axis {
+
+	path {
+		visibility: hidden;
+	}
+}
