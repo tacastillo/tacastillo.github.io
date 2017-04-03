@@ -1,0 +1,13 @@
+div.about-me-desc{
+	color: #F9F9F9;
+	height: 97%;
+    padding: 3.5rem;
+
+	&.has-content {
+		background-color: #000000;
+	}
+
+	&.no-content {
+		background-color: #F9F9F9;
+	}
+}

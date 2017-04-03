@@ -1,0 +1,26 @@
+.bg-container img {
+  width: 100vw; }
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 2.5rem;
+  color: #F8F8FF;
+  top: 20vh; }
+
+#name {
+  margin: 0; }
+
+#whoami ul {
+  margin: 0;
+  padding-left: 2rem; }
+  #whoami ul li {
+    display: inline;
+    white-space: nowrap; }
+    #whoami ul li.trade {
+      font-size: 2.5rem; }
+    #whoami ul li.passion {
+      font-size: 1.75rem; }
+  #whoami ul li + li:before {
+    content: " // ";
+    color: rgba(255, 255, 255, 0.6); }
