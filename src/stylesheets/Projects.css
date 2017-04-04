@@ -1,6 +1,6 @@
 .node {
   cursor: pointer; }
-  .node:hover:not(.node--leaf) {
+  .node.node--hover:not(.node--leaf) {
     stroke: #FFFFFF;
     stroke-width: 1.5px; }
 
@@ -14,4 +14,15 @@
   border: 1px solid #FFFFFF; }
 
 .description-container {
-  width: 400px; }
+  width: 500px;
+  margin-bottom: 5rem; }
+  .description-container h3 {
+    padding-top: 3rem; }
+
+.project-image-icon {
+  width: 100%;
+  cursor: pointer; }
+
+.project-image {
+  width: 100%;
+  height: 100%; }

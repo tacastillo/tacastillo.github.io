@@ -60,7 +60,6 @@ class Skills extends Component {
     componentDidMount() {
     	let chart = new RadarChart();
     	chart.init(".radarChart", this.state.totalData, this.state.options);
-    	// this._buildChart();
     }
 
     render() {
@@ -78,7 +77,7 @@ class Skills extends Component {
 			            height={this.state.height}
 			            margin={{top:25, left:120, bottom:0, right:25}}
 			            showTooltips={true}
-			            transitionDuration={750}
+			            transitionDuration={500}
 			            data={this.state.currentScope}
 				        />
 		      		</div>

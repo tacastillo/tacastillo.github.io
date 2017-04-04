@@ -5,6 +5,7 @@ import SplashScreen from './SplashScreen';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Projects from './Projects';
+import Links from './Links';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
 				<AboutMe></AboutMe>
 				<Projects></Projects>
 				<Skills></Skills>
+				<Links></Links>
 			</div>
 		);
   }

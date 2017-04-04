@@ -55,7 +55,7 @@ export default class BubbleChart extends BaseChart {
           .style("fill", function(d) { return color(d.depth);})
           .on("click", (d) => {
             if (focus !== root) {
-                zoom(d);
+                zoom(root);
                 d3.event.stopPropagation();
               } else {
                 zoom(d)
@@ -90,8 +90,8 @@ export default class BubbleChart extends BaseChart {
         if (!d.children) {
           d = d.parent
         }
-        let focus = d,
-            x = d.x,
+        focus = d;
+        let x = d.x,
             y = d.y,
             radius = d.r,
             k = d === root ? 1 : 2.5;

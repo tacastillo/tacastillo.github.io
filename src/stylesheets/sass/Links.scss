@@ -1,0 +1,29 @@
+.icon-wrapper {
+	display: flex;
+	height: 100%;
+
+	.icon-container {
+		margin: 1rem auto 5% auto;
+		i {
+			color: #FFFFFF;
+			margin: 2rem 2rem;
+
+			&:hover {
+				color: #E8E8E8;
+			}
+		}
+	}
+}
+.link-text-wrapper {
+	margin-top: 1rem;
+	display: flex; 
+
+	.link-text {
+		font-size: 14em;
+		margin: auto;
+
+		&:before {
+		  content: "\200b"; // unicode zero width space character
+		}
+	}
+}

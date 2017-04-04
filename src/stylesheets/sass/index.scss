@@ -37,6 +37,24 @@ h2 {
 	font-size: 4rem;
 }
 
+h3 {
+	font-size: 2.15rem;
+	a {
+		cursor: pointer;
+		color: #F9F9F9;
+		span {
+			color: #F9F9F9;
+			&:hover {
+				color: #F9F9F9;
+				text-decoration: underline;
+			}
+		}
+		i {
+			color: #F9F9F9;
+		}
+	}
+}
+
 p {
 	font-size: 1.2rem;
 }
@@ -44,6 +62,7 @@ p {
 .full-page {
 	width: 100vw;
 	height: 100%;
+	padding-bottom: 10rem;
 	&.align-page-right {
 		float: right;
 	}
@@ -60,18 +79,42 @@ p {
 	}
 
 	h2 {
-		margin-top: 3rem;
+		margin: 3rem 0 0 0;
 	    padding-left: 2rem;
 	}
 }
 
 .subheader {
 	padding-left: 2rem;
+	margin-top: 0;
 }
 
 .content-container {
 	display: flex;
+
 	.svg-container {
+		padding-top: 3rem;
 		margin: auto;
 	}
+}
+
+// CUSTOM MODAL
+.custom-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+}
+
+.custom-modal-content {
+    margin: auto;
+    box-shadow: 4px 4px 12px 1px #808080;
+    width: 60%; 
+    height: 70%;
 }

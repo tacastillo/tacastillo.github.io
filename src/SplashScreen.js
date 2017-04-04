@@ -18,23 +18,24 @@ class SplashScreen extends Component {
     render() {
     	let tradeList = this.state.trades.map((trade, i) => (<li className="trade" key={i}>{trade}</li>));
     	let passionList = this.state.passions.map((passion, i) => (<li className="passion" key={i}>{passion}</li>));
-
+    	let unusedOverlay = (
+			<div className="overlay">
+				<h1 id="name">Timothy Castillo</h1>
+					<div id="whoami">
+						<h3>
+							<ul>
+								{tradeList}
+							</ul>
+							<ul>
+								{passionList}
+							</ul>
+						</h3>
+					</div>
+			</div>
+		)
         return (
 	    	<div className="bg-container">
 			    <img alt="itsa meface" src={debugpls}></img>
-				<div className="overlay">
-					<h1 id="name">Timothy Castillo</h1>
-						<div id="whoami">
-							<h3>
-								<ul>
-									{tradeList}
-								</ul>
-								<ul>
-									{passionList}
-								</ul>
-							</h3>
-						</div>
-				</div>
 			</div>
         );
     }

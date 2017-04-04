@@ -1,0 +1,19 @@
+.icon-wrapper {
+  display: flex;
+  height: 100%; }
+  .icon-wrapper .icon-container {
+    margin: 1rem auto 5% auto; }
+    .icon-wrapper .icon-container i {
+      color: #FFFFFF;
+      margin: 2rem 2rem; }
+      .icon-wrapper .icon-container i:hover {
+        color: #E8E8E8; }
+
+.link-text-wrapper {
+  margin-top: 1rem;
+  display: flex; }
+  .link-text-wrapper .link-text {
+    font-size: 14em;
+    margin: auto; }
+    .link-text-wrapper .link-text:before {
+      content: "\200b"; }
