@@ -1,5 +1,6 @@
  // Black: #181D25;
  // White: #F9F9F9;
+ // Accent: #F78812;
 
 @font-face {
     font-family: 'headerFont';
@@ -34,7 +35,7 @@ h1 {
 }
 
 h2 {
-	font-size: 4rem;
+	font-size: 6rem;
 }
 
 h3 {
@@ -42,15 +43,17 @@ h3 {
 	a {
 		cursor: pointer;
 		color: #F9F9F9;
+		&:hover {
+			color: #F78812;
+		}
 		span {
-			color: #F9F9F9;
+			color: inherit;
 			&:hover {
-				color: #F9F9F9;
 				text-decoration: underline;
 			}
 		}
 		i {
-			color: #F9F9F9;
+			color: inherit;
 		}
 	}
 }

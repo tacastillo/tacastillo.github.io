@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import './stylesheets/SplashScreen.css';
 
-const debugpls = require('./assets/lolohgod.jpg');
-
 class SplashScreen extends Component {
 
 	constructor(props) {
@@ -33,7 +31,8 @@ class SplashScreen extends Component {
 			</div>
 		)
         return (
-	    	<div className="bg-container"/>
+	    	<div className="bg-container">
+	    	</div>
         );
     }
 }

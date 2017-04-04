@@ -14,6 +14,10 @@
 text {
 	font-family: bodyFont, sansSerif;
 	font-size: 13px;
+	&.bar {
+		font-size: 72px;
+		font-weight: bold;
+	}
 }
 
 .y.axis {

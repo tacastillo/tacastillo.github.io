@@ -11,6 +11,9 @@
 text {
   font-family: bodyFont, sansSerif;
   font-size: 13px; }
+  text.bar {
+    font-size: 72px;
+    font-weight: bold; }
 
 .y.axis path {
   visibility: hidden; }
