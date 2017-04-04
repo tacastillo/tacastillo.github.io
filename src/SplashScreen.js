@@ -33,9 +33,7 @@ class SplashScreen extends Component {
 			</div>
 		)
         return (
-	    	<div className="bg-container">
-			    <img className="ui fluid image" alt="itsa meface" src={debugpls}></img>
-			</div>
+	    	<div className="bg-container"/>
         );
     }
 }
