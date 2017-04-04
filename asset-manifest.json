@@ -1,11 +1,13 @@
 {
-  "main.css": "static/css/main.d0ae31ab.css",
-  "main.css.map": "static/css/main.d0ae31ab.css.map",
-  "main.js": "static/js/main.31330ed8.js",
-  "main.js.map": "static/js/main.31330ed8.js.map",
+  "main.css": "static/css/main.88bb4cfa.css",
+  "main.css.map": "static/css/main.88bb4cfa.css.map",
+  "main.js": "static/js/main.409a6d39.js",
+  "main.js.map": "static/js/main.409a6d39.js.map",
+  "static/media/chipotle.jpg": "static/media/chipotle.be00da40.jpg",
   "static/media/fff_light_trial-webfont.woff": "static/media/fff_light_trial-webfont.73223685.woff",
   "static/media/fff_light_trial-webfont.woff2": "static/media/fff_light_trial-webfont.08840a17.woff2",
   "static/media/flags.png": "static/media/flags.9c74e172.png",
+  "static/media/gpuviz.jpg": "static/media/gpuviz.a594feb8.jpg",
   "static/media/icons.eot": "static/media/icons.674f50d2.eot",
   "static/media/icons.svg": "static/media/icons.912ec66d.svg",
   "static/media/icons.ttf": "static/media/icons.b06871f2.ttf",
@@ -13,5 +15,7 @@
   "static/media/icons.woff2": "static/media/icons.af7ae505.woff2",
   "static/media/lanenar_-webfont.woff": "static/media/lanenar_-webfont.ec174034.woff",
   "static/media/lanenar_-webfont.woff2": "static/media/lanenar_-webfont.9c13c0d4.woff2",
-  "static/media/lolohgod.jpg": "static/media/lolohgod.e5cd3a45.jpg"
+  "static/media/learningcurated.jpg": "static/media/learningcurated.3393dc7d.jpg",
+  "static/media/lolohgod.jpg": "static/media/lolohgod.04151d19.jpg",
+  "static/media/wheresitlit.jpg": "static/media/wheresitlit.0d3f4831.jpg"
 }
