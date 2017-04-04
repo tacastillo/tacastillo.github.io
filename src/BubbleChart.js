@@ -82,8 +82,6 @@ export default class BubbleChart extends BaseChart {
         };
       }
 
-      // svg.on("click", function() { zoom(root);});
-
       let changeFocus = this.props.changeFocus;
 
       function zoom(d) {
@@ -101,6 +99,9 @@ export default class BubbleChart extends BaseChart {
         let transition = g.transition()
           .duration(750)
           .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+
+        g.selectAll("text")
+          .style("display", "none");
 
         transition.selectAll("text")
             .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })

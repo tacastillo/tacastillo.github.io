@@ -1,7 +1,7 @@
 export const PROJECTS_DATA = [
 	{
 		name: "Projects",
-		description: "Click on a Project to find out more about it, and then click on the outermost circle to return.",
+		description: "Select a project to find out more about it.",
 		parent: "",
 		value: 110
 	},
@@ -21,7 +21,7 @@ export const PROJECTS_DATA = [
 	{ name: "Node.js", parent: "learningCurated", value: 5},
 	{
 		name: "Chipotle Visualizations",
-		description: "Created three interactive web visualizations in d3.js to observe and analyze raw data of 4000 Chipotle orders and nutritional information. Pre-processing was done in Python.",
+		description: "Created three interactive web visualizations in d3.js to observe and analyze raw data of 1800 Chipotle orders and nutritional information. Pre-processing was done in Python.",
 		parent: "Projects",
 		url: "http://usf-cs360-2016.github.io/tacastillo-cs360/project/",
 		img: "chipotle",
@@ -41,8 +41,8 @@ export const PROJECTS_DATA = [
 	{ name: "Java", parent: "Search Engine", value: 4},
 	{ name: "SQL", parent: "Search Engine", value: 3},
 	{ name: "Databases", parent: "Search Engine", value: 1},
-	{ name: "Multithreading", parent: "Search Engine", value: 4},
-	{ name: "Web", parent: "Search Engine", value: 1},
+	{ name: "Multithreading", parent: "Search Engine", value: 5},
+	{ name: "Web", parent: "Search Engine", value: 2},
 	{
 		name: "Social Media Heatmap",
 		description: "Built a heat map that illustrates the popularity of locations in an area based on unique Foursquare checkins. In this project, I learned how to work with existing APIs (Google Maps and Foursquare), front end development, jQuery, client-side networking, user interaction and data visualization.",
@@ -51,9 +51,9 @@ export const PROJECTS_DATA = [
 		img: "wheresitlit",
 		value: 15
 	},
-	{ name: "REST APIs", parent: "Social Media Heatmap", value: 1},
-	{ name: "D3.js", parent: "Social Media Heatmap", value: 4},
-	{ name: "Front End", parent: "Social Media Heatmap", value: 2},
+	{ name: "REST APIs", parent: "Social Media Heatmap", value: 2},
+	{ name: "D3.js", parent: "Social Media Heatmap", value: 5},
+	{ name: "Front End", parent: "Social Media Heatmap", value: 3},
 	{ name: "Google Maps API", parent: "Social Media Heatmap", value: 2},
 	{ name: "jQuery", parent: "Social Media Heatmap", value: 2},
 	{

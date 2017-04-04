@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 
 import './stylesheets/SplashScreen.css';
 
-import debugpls from './assets/lolohgod.jpg';
-
+const debugpls = require('./assets/lolohgod.jpg');
 
 class SplashScreen extends Component {
 
@@ -21,21 +20,21 @@ class SplashScreen extends Component {
     	let unusedOverlay = (
 			<div className="overlay">
 				<h1 id="name">Timothy Castillo</h1>
-					<div id="whoami">
-						<h3>
-							<ul>
-								{tradeList}
-							</ul>
-							<ul>
-								{passionList}
-							</ul>
-						</h3>
-					</div>
+				<div id="whoami">
+					<h3>
+						<ul>
+							{tradeList}
+						</ul>
+						<ul>
+							{passionList}
+						</ul>
+					</h3>
+				</div>
 			</div>
 		)
         return (
 	    	<div className="bg-container">
-			    <img alt="itsa meface" src={debugpls}></img>
+			    <img className="ui fluid image" alt="itsa meface" src={debugpls}></img>
 			</div>
         );
     }

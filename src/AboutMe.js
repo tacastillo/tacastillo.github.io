@@ -41,12 +41,13 @@ class AboutMe extends Component {
     render() {
 
     	let listItems = this.state.events.map((event, i) => {
+            let action = this._setDetails.bind(this, event, i);
     		let liClass = classNames({
     			"about-selected": i === this.state.selected
     		});
 
     		return (
-    			<li className={liClass} onMouseEnter={this._setDetails.bind(this, event, i)} key={i}>
+    			<li className={liClass} onClick={action} onMouseEnter={action} key={i}>
 		    		<span className="about-date">{event.date}</span>
 	  				{event.title}
 	    		</li>
