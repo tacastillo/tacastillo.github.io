@@ -1,4 +1,4 @@
-import React, { PropTypes } from "react";
+import React from "react";
 
 import BubbleChart from "./BubbleChart";
 import BarChart from "./BarChart";
@@ -10,13 +10,6 @@ const CHART_MAPPINGS = {
 };
 
 export default class Chart extends React.Component {
-    static propTypes = {
-        className: PropTypes.string,
-        type: PropTypes.oneOf(Object.keys(CHART_MAPPINGS)).isRequired,
-        width: PropTypes.number,
-        height: PropTypes.number,
-        margin: PropTypes.objectOf(PropTypes.number)
-    };
 
     componentDidMount() {
         const el = this.refs.chart;

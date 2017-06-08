@@ -57,17 +57,19 @@ export const PROJECTS_DATA = [
 	{ name: "Google Maps API", parent: "Social Media Heatmap", value: 2},
 	{ name: "jQuery", parent: "Social Media Heatmap", value: 2},
 	{
-		name: "The One With the Overanalyzing",
+		name: "The One When They Read Into It",
 		description: "From all 10 seasons of Friends, a collection of visualizations created after mining, processing, analyzing and visualizing scripts.",
+		url: "https://tacastillo.github.io/friends",
+		img: "friends",
 		parent: "Projects",
 		value: 35
 	},
-	{ name: "Data Vis", parent: "The One With the Overanalyzing", value: 5},
-	{ name: "Web Dev", parent: "The One With the Overanalyzing", value: 4},
-	{ name: "Machine Learning", parent: "The One With the Overanalyzing", value: 6},
-	{ name: "NLP", parent: "The One With the Overanalyzing", value: 8},
-	{ name: "Data Mining", parent: "The One With the Overanalyzing", value: 5},
-	{ name: "Python", parent: "The One With the Overanalyzing", value: 5},
+	{ name: "Data Vis", parent: "The One When They Read Into It", value: 8},
+	{ name: "Web Dev", parent: "The One When They Read Into It", value: 7},
+	{ name: "NLP", parent: "The One When They Read Into It", value: 8},
+	{ name: "Data Mining", parent: "The One When They Read Into It", value: 5},
+	{ name: "Python", parent: "The One When They Read Into It", value: 5},
+	{ name: "ReactJS", parent: "The One When They Read Into It", value: 7},
 	{
 		name: "GPU-Accelerated Data Analysis",
 		description: "For my Senior Capstone project, I worked as a team of three creating a framework to make large-scale visualizations fast and efficient by utilizing the GPU throughout the entire pipeline: from processing the data to rendering the visualizations. We collected thousands of tweets through the Twitter Streaming API and stored the relevant metadata on an AWS RDS database.",
@@ -81,4 +83,15 @@ export const PROJECTS_DATA = [
 	{ name: "Rest APIs", parent: "GPU-Accelerated Data Analysis", value: 2},
 	{ name: "Data Mining", parent: "GPU-Accelerated Data Analysis", value: 7},
 	{ name: "Node.js", parent: "GPU-Accelerated Data Analysis", value: 3},
+	{
+		name: "Data Liz",
+		description: "Facebook chatbot that takes in a CSV file, prompts the user for two or more labeled columns from the CSV, a type of visualization, and generates a server-side rendered D3 visualization given the chat input. This HTML canvas is then saved as a PNG image and sent back to the user.",
+		parent: "Projects",
+		img: "dataliz",
+		value: 22
+	},
+	{ name: "Data Vis", parent: "Data Liz", value: 5},
+	{ name: "Node.js", parent: "Data Liz", value: 6},
+	{ name: "Rest APIs", parent: "Data Liz", value: 6},
+	{ name: "Facebook Chatbots", parent: "Data Liz", value: 5},
 ]
