@@ -1,0 +1,28 @@
+.full-svg {
+	height: 100vh;
+	width: 100vw;
+}
+
+.legend {
+	fill: #333333;
+}
+
+.tooltip {
+	fill: #333333;
+}
+
+text {
+	font-family: bodyFont, sansSerif;
+	font-size: 13px;
+	&.bar {
+		font-size: 72px;
+		font-weight: bold;
+	}
+}
+
+.y.axis {
+
+	path {
+		visibility: hidden;
+	}
+}

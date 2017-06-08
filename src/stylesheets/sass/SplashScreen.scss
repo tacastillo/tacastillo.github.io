@@ -1,0 +1,42 @@
+.bg-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/merp.jpg') ;
+    background-position: left center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2.5rem;
+    color: #F8F8FF;
+    top: 30vh;
+}
+
+#name {
+    margin: 0;
+}
+
+#whoami ul {
+    margin: 0;
+    padding-left: 2rem;
+
+    li {
+        display: inline;
+        white-space: nowrap;
+        &.trade {
+            font-size: 2.5rem;
+        }
+        &.passion {
+            font-size: 1.75rem;
+        }
+    }
+    li + li:before {
+        content: " // ";
+        color: #F78812;
+    }
+}
