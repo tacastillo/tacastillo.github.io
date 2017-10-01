@@ -16,7 +16,7 @@ export const LINK_DATA = [
 	},
 	{
 		name: "Resume",
-		url: "https://www.linkedin.com/in/tacastillo/",
+		url: "https://github.com/tacastillo/tacastillo.github.io/tree/gh-pages/src/assets/TimCastilloResumeSeptember2017.pdf",
 		class: "file outline text"
 	},
 	{

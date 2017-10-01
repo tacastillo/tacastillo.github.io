@@ -22,12 +22,12 @@ export const ABOUT_ME = [
 	{
 		title: "Leaves Apttus",
 		date: "March 2017",
-		description: "After graduating in December, I was allowed to return full-time to Apttus until my intended start date at IBM, which I had already received an offer for. I chose to leave Apttus a couple months before my start date as I wanted to focus on myself, my health, my relationships and to spend plenty of quality time working on my side projects."
+		description: "After graduating in December, I was allowed to return full-time to Apttus until my intended start date at IBM, which I had already received an offer for. I chose to leave Apttus a couple months before my start date as I wanted to focus on myself, my relationships, my health and to spend plenty of quality time working on my side projects."
 	},
 	{
 		title: "Starts as UI Developer at IBM Watson Customer Engagement",
 		date: "July 2017",
-		description: "EEEEEE!!! I'M SO EXCITED!"
+		description: "A product of IBM Watson's Commerce branch, I began working on a product called Customer Experience Analytics. As a developer on CXA, I am involved in building the UI of a powerful analytics platform for businesses that merges in-store, web, and mobile presences of a customer base. Working with industry-respected frameworks and cutting edge technologies, I develop in AngularJS, D3.js and Javascript development tools such as Gulp to optimize my flow."
 	},
 
 ]

@@ -1,9 +1,9 @@
 export const SUMMARY_DATA = [
-	{xValue: "Front End", yValue: 0.75},
-	{xValue: "Back End", yValue: 0.6},
+	{xValue: "Front End", yValue: 0.85},
+	{xValue: "Back End", yValue: 0.5},
 	{xValue: "Theory", yValue: 0.4},
-	{xValue: "Analytics", yValue: 0.5},
-	{xValue: "Misc", yValue: 0.6},
+	{xValue: "Analytics", yValue: 0.75},
+	{xValue: "Misc", yValue: 0.55},
 ]
 
 export const SUBTOTAL_DATA = {
@@ -15,21 +15,21 @@ export const SUBTOTAL_DATA = {
 		{xValue: "CSS/SASS", yValue: 0.6},
 	],
 	"Back End": [
-		{xValue: "Java", yValue: 0.7},
+		{xValue: "Java", yValue: 0.5},
 		{xValue: "MongoDB", yValue: 0.5},
 		{xValue: "Python", yValue: 0.8},
-		{xValue: "SQL", yValue: 0.6},
-		{xValue: "Node.js", yValue: 0.6},
+		{xValue: "SQL", yValue: 0.7},
+		{xValue: "Node.js", yValue: 0.7},
 	],
 	"Theory": [
-		{xValue: "Algorithms", yValue: 0.5},
+		{xValue: "Algorithms", yValue: 0.6},
 		{xValue: "Data Structures", yValue: 0.75},
-		{xValue: "Lang. Theory", yValue: 0.5},	
+		{xValue: "Lang. Theory", yValue: 0.5},
 		{xValue: "Dev Strategies", yValue: 0.6},
 		{xValue: "Optimization", yValue: 0.6},
 	],
 	"Analytics": [
-		{xValue: "d3.js/Data Vis Tools", yValue: 0.7},
+		{xValue: "d3.js", yValue: 0.8},
 		{xValue: "Statistics", yValue: 0.6},
 		{xValue: "Python", yValue: 0.8},
 		{xValue: "Machine Learning", yValue: 0.5},
@@ -40,6 +40,6 @@ export const SUBTOTAL_DATA = {
 		{xValue: "Management", yValue: 0.7},
 		{xValue: "npm", yValue: 0.85},
 		{xValue: "Communication", yValue: 0.95},
-		{xValue: "Webpack/Bash", yValue: 0.95},
+		{xValue: "gulp", yValue: 0.8},
 	]
 }
