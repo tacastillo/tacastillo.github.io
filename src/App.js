@@ -8,7 +8,8 @@ import Projects from './Projects';
 import Links from './Links';
 
 class App extends Component {
-  render() {
+
+	render() {
 		return (
 			<div>
 				<SplashScreen></SplashScreen>
@@ -18,7 +19,7 @@ class App extends Component {
 				<Links></Links>
 			</div>
 		);
-  }
+	}
 }
 
 export default App;
