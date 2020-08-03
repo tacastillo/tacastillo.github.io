@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url(./assets/nature.jpg) no-repeat fixed center;
 }
 
-.experience, .education, .projects, .skills {
+.experience, .education, .projects, .skills, .contact-me {
   margin: 10vw;
 }
 
