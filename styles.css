@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  font-family: 'Karla', sans-serif; 
+  /* text-align: center; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(./assets/nature.jpg) no-repeat fixed center;
+}
+
+.experience, .education, .projects, .skills {
+  margin: 10vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .hero {
+    padding: 0 5rem;
+  }
+}
